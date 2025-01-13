@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="output.css">
+        <script src="https://cdn.socket.io/4.5.4/socket.io.min.js"></script>
+    </head>
+    <body class="bg-orange-300">
+        <script src="client.js"  type="module"></script>
+        <div class="flex justify-center h-[9vh]">
+            <img class="h-full w-24" src="../assets/logo.png" alt="Let's Chat ">
+        </div>
+        <div class="w-full bg-blue-300 h-[91vh]">
+            <div id="taskbar" class="w-full h-[11%] bg-green-600  flex justify-center items-center">
+                <button id="back" class="text-2xl font-bold rounded-lg px-2 font-sans bg-black text-white hide">Back</button>
+                <button id="members" class="bg-green-600 text-2xl font-bold font-sans">See Members</button>
+            </div>
+            <div id="message-box" class="w-full h-[81%]">
+                <div id="messages" class="flex flex-col justify-start gap-2"></div>
+                <div id="member-display" class="flex flex-col justify-center items-center hide"></div>
+            </div>
+            <div id="input-box" class="w-full h-[8%] bg-blue-300 -my-3 flex justify-center gap-2">
+                <input id="msg" class="w-3/4 h-full rounded-lg text-xl" placeholder="Type your message" type="text">
+                <button id="send" class="my-padding rounded-lg bg-purple-600 text-white font-bold px-2" type="button">Send</button>
+            </div>
+        </div>
+    </body>
+</html>
