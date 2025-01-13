@@ -68,7 +68,8 @@ document.addEventListener('DOMContentLoaded', () => {
         }
         newmsg.classList.add("py-5")
         newmsg.classList.add("px-2")
-        newmsg.classList.add("bg-white")
+        newmsg.classList.add("bg-black")
+        newmsg.classList.add("text-white")
         newmsg.classList.add("rounded-lg")
         newmsg.classList.add("text-xl")
 

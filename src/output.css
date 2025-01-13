@@ -114,7 +114,7 @@ background-color: white;
 
 .bg-blue-300 {
   --tw-bg-opacity: 1;
-  background-color: rgb(147 197 253 / var(--tw-bg-opacity, 1));
+  background-color: rgb(9 108 108 / var(--tw-bg-opacity, 1));
 }
 
 .bg-green-600 {
@@ -133,7 +133,7 @@ background-color: white;
 }
 
 .bg-black{
-  background-color: black;
+  background-color: rgb(27, 27, 27);
 }
 
 .px-10 {
